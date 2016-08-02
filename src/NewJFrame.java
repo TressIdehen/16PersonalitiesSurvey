@@ -414,23 +414,42 @@ public class NewJFrame extends javax.swing.JFrame {
         Question_Number.setToolTipText("Question#");
 
         ProgressBar.setToolTipText("Your Progress Report");
+        ProgressBar.setStringPainted(true);
 
         ProgressPercentage.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        ProgressPercentage.setText("NB%");
 
         Total_Score.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        Total_Score.setText("Score:");
 
         Question_List.setLayout(new java.awt.CardLayout());
+
+        Question1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question1, "card6");
+
+        Question2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question2, "card6");
+
+        Question3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question3, "card6");
+
+        Question4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question4, "card6");
+
+        Question5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question5, "card6");
+
+        Question6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question6, "card6");
+
+        Question7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question7, "card6");
+
+        Question8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question8, "card6");
+
+        Question9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question9, "card6");
+
+        Question10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question10, "card6");
 
         user_answer.add(strongly_disagree);
@@ -518,7 +537,7 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, QuestionsLayout.createSequentialGroup()
                         .addGroup(QuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(QuestionsLayout.createSequentialGroup()
-                                .addComponent(jSeparator2, javax.swing.GroupLayout.DEFAULT_SIZE, 12, Short.MAX_VALUE)
+                                .addComponent(jSeparator2)
                                 .addGap(577, 577, 577))
                             .addGroup(QuestionsLayout.createSequentialGroup()
                                 .addComponent(ProgressPercentage, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -554,7 +573,7 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(Total_Score, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 262, Short.MAX_VALUE)
                 .addComponent(user_response, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(button_list, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1254,6 +1273,7 @@ public class NewJFrame extends javax.swing.JFrame {
         Question9.setText(Question_9);
         Question10.setText(Question_10);
         Question_Number.setText(Integer.toString(Questionnaire_Location) );
+        
     }//GEN-LAST:event_begin_test_buttonActionPerformed
 
     private void Begin_Test_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Begin_Test_ButtonActionPerformed
@@ -1266,7 +1286,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void Button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button1ActionPerformed
         // TODO add your handling code here:
-        
+    
                  
     switch(Questionnaire_Location){
         case 1:
