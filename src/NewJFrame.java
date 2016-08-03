@@ -203,7 +203,7 @@ public class NewJFrame extends javax.swing.JFrame {
         header.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         header.setText("Welcome To The 16 Personalities Test.\n Please Enter The Following:");
 
-        avatar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\default-avatar.png")); // NOI18N
+        avatar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/default-avatar.png"))); // NOI18N
         avatar.setToolTipText("Click To Select Avatar");
         avatar.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.white, java.awt.Color.black));
         avatar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -413,6 +413,7 @@ public class NewJFrame extends javax.swing.JFrame {
         Question_Number.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         Question_Number.setToolTipText("Question#");
 
+        ProgressBar.setMaximum(10);
         ProgressBar.setToolTipText("Your Progress Report");
         ProgressBar.setStringPainted(true);
 
@@ -632,7 +633,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(Role_Type_Calculator, "card5");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\advocate.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/advocate.png"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("You Are An: ADVOCATE");
@@ -668,7 +669,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(advocate, "card5");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\mediator.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mediator.png"))); // NOI18N
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setText("You Are a: MEDIATOR");
@@ -704,7 +705,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(mediator, "card5");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\protagonist.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/protagonist.png"))); // NOI18N
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setText("You Are a: PROTAGONIST");
@@ -740,7 +741,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(protagonist, "card5");
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\campaigner.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/campaigner.png"))); // NOI18N
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel8.setText("You Are a: CAMPAIGNER");
@@ -776,7 +777,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(campaigner, "card5");
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\logistician.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logistician.png"))); // NOI18N
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel10.setText("You Are a: LOGISTICIAN");
@@ -812,7 +813,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(logistician, "card5");
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\defender.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/defender.png"))); // NOI18N
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel12.setText("You Are a: DEFENDER");
@@ -848,7 +849,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(defender, "card5");
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\executive.png")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/executive.png"))); // NOI18N
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel14.setText("You Are an: EXECUTIVE");
@@ -884,7 +885,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(executive, "card5");
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\consul.png")); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/consul.png"))); // NOI18N
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel16.setText("You Are a: CONSUL");
@@ -920,7 +921,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(consul, "card5");
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\architect.png")); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/architect.png"))); // NOI18N
 
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel18.setText("You Are an: ARCHITECT");
@@ -956,7 +957,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(architect, "card5");
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\logician.png")); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logician.png"))); // NOI18N
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel20.setText("You Are a: LOGICIAN");
@@ -992,7 +993,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(logician, "card5");
 
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\commander.png")); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/commander.png"))); // NOI18N
 
         jLabel22.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel22.setText("You Are a: COMMANDER");
@@ -1028,7 +1029,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(commander, "card5");
 
-        jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\debater.png")); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/debater.png"))); // NOI18N
 
         jLabel24.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel24.setText("You Are a: DEBATER");
@@ -1064,7 +1065,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(debater, "card5");
 
-        jLabel25.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\virtuoso.png")); // NOI18N
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/virtuoso.png"))); // NOI18N
 
         jLabel26.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel26.setText("You Are : VIRTUOSO");
@@ -1100,7 +1101,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(virtuoso, "card5");
 
-        jLabel27.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\adventurer.png")); // NOI18N
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/adventurer.png"))); // NOI18N
 
         jLabel28.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel28.setText("You Are an: ADVENTURER");
@@ -1136,7 +1137,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(adventurer, "card5");
 
-        jLabel29.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\entrepreneur.png")); // NOI18N
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/entrepreneur.png"))); // NOI18N
 
         jLabel30.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel30.setText("You Are an: ENTREPRENEUR");
@@ -1172,7 +1173,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         getContentPane().add(entrepreneur, "card5");
 
-        jLabel31.setIcon(new javax.swing.ImageIcon("C:\\Users\\Tress Idehen\\Documents\\NetBeansProjects\\PersonalityTest\\images\\entertainer.png")); // NOI18N
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/entertainer.png"))); // NOI18N
 
         jLabel32.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel32.setText("You Are an: ENTERTAINER");
@@ -1287,7 +1288,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private void Button1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Button1ActionPerformed
         // TODO add your handling code here:
     
-                 
+    ProgressBar.setValue(Questionnaire_Location);
     switch(Questionnaire_Location){
         case 1:
             Total_Points = (Total_Points += Current_Point);

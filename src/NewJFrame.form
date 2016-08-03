@@ -124,7 +124,7 @@
         <Component class="javax.swing.JLabel" name="avatar">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\default-avatar.png"/>
+              <Image iconType="3" name="/default-avatar.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Click To Select Avatar"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -484,6 +484,7 @@
         </Component>
         <Component class="javax.swing.JProgressBar" name="ProgressBar">
           <Properties>
+            <Property name="maximum" type="int" value="10"/>
             <Property name="toolTipText" type="java.lang.String" value="Your Progress Report"/>
             <Property name="stringPainted" type="boolean" value="true"/>
           </Properties>
@@ -872,7 +873,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\advocate.png"/>
+              <Image iconType="3" name="/advocate.png"/>
             </Property>
           </Properties>
         </Component>
@@ -935,7 +936,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\mediator.png"/>
+              <Image iconType="3" name="/mediator.png"/>
             </Property>
           </Properties>
         </Component>
@@ -998,7 +999,7 @@
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\protagonist.png"/>
+              <Image iconType="3" name="/protagonist.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1061,7 +1062,7 @@
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\campaigner.png"/>
+              <Image iconType="3" name="/campaigner.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1124,7 +1125,7 @@
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\logistician.png"/>
+              <Image iconType="3" name="/logistician.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1187,7 +1188,7 @@
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\defender.png"/>
+              <Image iconType="3" name="/defender.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1250,7 +1251,7 @@
         <Component class="javax.swing.JLabel" name="jLabel13">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\executive.png"/>
+              <Image iconType="3" name="/executive.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1313,7 +1314,7 @@
         <Component class="javax.swing.JLabel" name="jLabel15">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\consul.png"/>
+              <Image iconType="3" name="/consul.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1376,7 +1377,7 @@
         <Component class="javax.swing.JLabel" name="jLabel17">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\architect.png"/>
+              <Image iconType="3" name="/architect.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1439,7 +1440,7 @@
         <Component class="javax.swing.JLabel" name="jLabel19">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\logician.png"/>
+              <Image iconType="3" name="/logician.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1502,7 +1503,7 @@
         <Component class="javax.swing.JLabel" name="jLabel21">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\commander.png"/>
+              <Image iconType="3" name="/commander.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1565,7 +1566,7 @@
         <Component class="javax.swing.JLabel" name="jLabel23">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\debater.png"/>
+              <Image iconType="3" name="/debater.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1628,7 +1629,7 @@
         <Component class="javax.swing.JLabel" name="jLabel25">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\virtuoso.png"/>
+              <Image iconType="3" name="/virtuoso.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1691,7 +1692,7 @@
         <Component class="javax.swing.JLabel" name="jLabel27">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\adventurer.png"/>
+              <Image iconType="3" name="/adventurer.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1754,7 +1755,7 @@
         <Component class="javax.swing.JLabel" name="jLabel29">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\entrepreneur.png"/>
+              <Image iconType="3" name="/entrepreneur.png"/>
             </Property>
           </Properties>
         </Component>
@@ -1817,7 +1818,7 @@
         <Component class="javax.swing.JLabel" name="jLabel31">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Tress Idehen\Documents\NetBeansProjects\PersonalityTest\images\entertainer.png"/>
+              <Image iconType="3" name="/entertainer.png"/>
             </Property>
           </Properties>
         </Component>
