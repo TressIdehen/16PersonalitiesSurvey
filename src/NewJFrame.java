@@ -31,6 +31,16 @@ public class NewJFrame extends javax.swing.JFrame {
     String Question_8 = " You are strongly touched by the stories about people's troubles";
     String Question_9 = "For you, it is easier to gain knowledge through hands-on experience than from books or manuals";
     String Question_10 = "You have good control over your desires and temptations";
+    String Question_11 = "You find it difficult to speak loudly";
+    String Question_12 = "You value justice higher than mercy";
+    String Question_13 = "Deadlines seem to you to be of relative rather than absolute importance";
+    String Question_14 = "You think that almost everything can be analyzed";
+    String Question_15 = " You take pleasure in putting things in order";
+    String Question_16 = "When solving a problem you would rather follow a familiar approach than seek a new one";
+    String Question_17 = " A thirst for adventure is something close to your heart";
+    String Question_18 = "You find it difficult to talk about your feelings";
+    String Question_19 = "You are easily affected by strong emotions";
+    String Question_20 = "You are always looking for opportunities";
     
     String User_Role_Type;
     String User_Personality_Type;
@@ -121,6 +131,16 @@ public class NewJFrame extends javax.swing.JFrame {
         Question8 = new javax.swing.JLabel();
         Question9 = new javax.swing.JLabel();
         Question10 = new javax.swing.JLabel();
+        Question11 = new javax.swing.JLabel();
+        Question12 = new javax.swing.JLabel();
+        Question13 = new javax.swing.JLabel();
+        Question14 = new javax.swing.JLabel();
+        Question15 = new javax.swing.JLabel();
+        Question16 = new javax.swing.JLabel();
+        Question17 = new javax.swing.JLabel();
+        Question18 = new javax.swing.JLabel();
+        Question19 = new javax.swing.JLabel();
+        Question20 = new javax.swing.JLabel();
         user_response = new javax.swing.JPanel();
         strongly_disagree = new javax.swing.JRadioButton();
         disagree = new javax.swing.JRadioButton();
@@ -131,70 +151,103 @@ public class NewJFrame extends javax.swing.JFrame {
         Get_Total_Point = new javax.swing.JButton();
         congratulations = new javax.swing.JLabel();
         instructions2 = new javax.swing.JLabel();
+        user = new javax.swing.JLabel();
         advocate = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        jTextArea16 = new javax.swing.JTextArea();
         mediator = new javax.swing.JPanel();
         jSeparator3 = new javax.swing.JSeparator();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        jTextArea15 = new javax.swing.JTextArea();
         protagonist = new javax.swing.JPanel();
         jSeparator4 = new javax.swing.JSeparator();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        jTextArea14 = new javax.swing.JTextArea();
         campaigner = new javax.swing.JPanel();
         jSeparator5 = new javax.swing.JSeparator();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        jTextArea13 = new javax.swing.JTextArea();
         logistician = new javax.swing.JPanel();
         jSeparator6 = new javax.swing.JSeparator();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        jTextArea12 = new javax.swing.JTextArea();
         defender = new javax.swing.JPanel();
         jSeparator7 = new javax.swing.JSeparator();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        jTextArea11 = new javax.swing.JTextArea();
         executive = new javax.swing.JPanel();
         jSeparator8 = new javax.swing.JSeparator();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTextArea10 = new javax.swing.JTextArea();
         consul = new javax.swing.JPanel();
         jSeparator9 = new javax.swing.JSeparator();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTextArea9 = new javax.swing.JTextArea();
         architect = new javax.swing.JPanel();
         jSeparator10 = new javax.swing.JSeparator();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
         logician = new javax.swing.JPanel();
         jSeparator11 = new javax.swing.JSeparator();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
         commander = new javax.swing.JPanel();
         jSeparator12 = new javax.swing.JSeparator();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         debater = new javax.swing.JPanel();
         jSeparator13 = new javax.swing.JSeparator();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
         virtuoso = new javax.swing.JPanel();
         jSeparator14 = new javax.swing.JSeparator();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTextArea5 = new javax.swing.JTextArea();
         adventurer = new javax.swing.JPanel();
         jSeparator15 = new javax.swing.JSeparator();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea6 = new javax.swing.JTextArea();
         entrepreneur = new javax.swing.JPanel();
         jSeparator16 = new javax.swing.JSeparator();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
         entertainer = new javax.swing.JPanel();
         jSeparator17 = new javax.swing.JSeparator();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea8 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("16 Personality Test");
@@ -267,26 +320,26 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(Separator)
                     .addComponent(header, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Window_ContentLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(welcome_user, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(Window_ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(user_fullname, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(begin_test_button, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 88, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Window_ContentLayout.createSequentialGroup()
-                        .addComponent(avatar)
-                        .addGap(18, 18, 18)
-                        .addGroup(Window_ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(First_Name, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Last_Name, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(Window_ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(input_first_name)
-                            .addComponent(input_last_name)
-                            .addGroup(Window_ContentLayout.createSequentialGroup()
-                                .addComponent(verify_user, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE)))))
+                        .addGroup(Window_ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Window_ContentLayout.createSequentialGroup()
+                                .addGap(92, 92, 92)
+                                .addComponent(welcome_user, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addGroup(Window_ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(user_fullname, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(begin_test_button, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Window_ContentLayout.createSequentialGroup()
+                                .addComponent(avatar)
+                                .addGap(18, 18, 18)
+                                .addGroup(Window_ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(First_Name, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(Last_Name, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(Window_ContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(verify_user, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(input_first_name, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
+                                    .addComponent(input_last_name))))
+                        .addGap(0, 117, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         Window_ContentLayout.setVerticalGroup(
@@ -359,7 +412,7 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addComponent(Begin_Test_Button)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, IntroductionLayout.createSequentialGroup()
-                .addGap(0, 31, Short.MAX_VALUE)
+                .addGap(0, 61, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 563, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28))
         );
@@ -413,7 +466,7 @@ public class NewJFrame extends javax.swing.JFrame {
         Question_Number.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         Question_Number.setToolTipText("Question#");
 
-        ProgressBar.setMaximum(10);
+        ProgressBar.setMaximum(20);
         ProgressBar.setToolTipText("Your Progress Report");
         ProgressBar.setStringPainted(true);
 
@@ -452,6 +505,36 @@ public class NewJFrame extends javax.swing.JFrame {
 
         Question10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Question_List.add(Question10, "card6");
+
+        Question11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question11, "card6");
+
+        Question12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question12, "card6");
+
+        Question13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question13, "card6");
+
+        Question14.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question14, "card6");
+
+        Question15.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question15, "card6");
+
+        Question16.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question16, "card6");
+
+        Question17.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question17, "card6");
+
+        Question18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question18, "card6");
+
+        Question19.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question19, "card6");
+
+        Question20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        Question_List.add(Question20, "card6");
 
         user_answer.add(strongly_disagree);
         strongly_disagree.setText("I Strongly Disagree");
@@ -546,7 +629,7 @@ public class NewJFrame extends javax.swing.JFrame {
                                 .addComponent(Question_Title)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(Question_Number, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 211, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 198, Short.MAX_VALUE)
                                 .addGroup(QuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(button_list, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(Total_Score, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
@@ -558,7 +641,7 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(QuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(QuestionsLayout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(Question_List, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Question_List, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
                     .addContainerGap()))
         );
         QuestionsLayout.setVerticalGroup(
@@ -604,20 +687,27 @@ public class NewJFrame extends javax.swing.JFrame {
         instructions2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         instructions2.setText("Click the Below Button\nTo Proceed to Your Result.");
 
+        user.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+
         javax.swing.GroupLayout Role_Type_CalculatorLayout = new javax.swing.GroupLayout(Role_Type_Calculator);
         Role_Type_Calculator.setLayout(Role_Type_CalculatorLayout);
         Role_Type_CalculatorLayout.setHorizontalGroup(
             Role_Type_CalculatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Role_Type_CalculatorLayout.createSequentialGroup()
-                .addGap(118, 118, 118)
-                .addGroup(Role_Type_CalculatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(Role_Type_CalculatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(Role_Type_CalculatorLayout.createSequentialGroup()
-                        .addComponent(Get_Total_Point, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(132, 132, 132))
-                    .addGroup(Role_Type_CalculatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(instructions2, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(congratulations)))
-                .addContainerGap(128, Short.MAX_VALUE))
+                        .addGap(118, 118, 118)
+                        .addGroup(Role_Type_CalculatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(Role_Type_CalculatorLayout.createSequentialGroup()
+                                .addComponent(Get_Total_Point, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(132, 132, 132))
+                            .addGroup(Role_Type_CalculatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(instructions2, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(congratulations))))
+                    .addGroup(Role_Type_CalculatorLayout.createSequentialGroup()
+                        .addGap(254, 254, 254)
+                        .addComponent(user, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(158, Short.MAX_VALUE))
         );
         Role_Type_CalculatorLayout.setVerticalGroup(
             Role_Type_CalculatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -625,7 +715,9 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(81, 81, 81)
                 .addComponent(congratulations, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(instructions2, javax.swing.GroupLayout.DEFAULT_SIZE, 169, Short.MAX_VALUE)
+                .addComponent(user, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(instructions2, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(Get_Total_Point, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(76, 76, 76))
@@ -638,21 +730,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("You Are An: ADVOCATE");
 
+        jTextArea16.setColumns(20);
+        jTextArea16.setLineWrap(true);
+        jTextArea16.setRows(5);
+        jTextArea16.setText("Advocates tend to see helping others as their purpose in life, but while people with this personality type can be found engaging rescue efforts and doing charity work, their real passion is to get to the heart of the issue so that people need not be rescued at all.");
+        jTextArea16.setWrapStyleWord(true);
+        jScrollPane17.setViewportView(jTextArea16);
+
         javax.swing.GroupLayout advocateLayout = new javax.swing.GroupLayout(advocate);
         advocate.setLayout(advocateLayout);
         advocateLayout.setHorizontalGroup(
             advocateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(advocateLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(advocateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(advocateLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(advocateLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(advocateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator1))))
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane17))
+                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator1))
                 .addContainerGap())
         );
         advocateLayout.setVerticalGroup(
@@ -662,9 +760,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(advocateLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(advocateLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, advocateLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(57, 57, 57))))
         );
 
         getContentPane().add(advocate, "card5");
@@ -674,21 +778,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setText("You Are a: MEDIATOR");
 
+        jTextArea15.setColumns(20);
+        jTextArea15.setLineWrap(true);
+        jTextArea15.setRows(5);
+        jTextArea15.setText("Mediator have a talent for self-expression, revealing their beauty and their secrets through metaphors and fictional characters.");
+        jTextArea15.setWrapStyleWord(true);
+        jScrollPane16.setViewportView(jTextArea15);
+
         javax.swing.GroupLayout mediatorLayout = new javax.swing.GroupLayout(mediator);
         mediator.setLayout(mediatorLayout);
         mediatorLayout.setHorizontalGroup(
             mediatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mediatorLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(mediatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(mediatorLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(mediatorLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(mediatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator3))))
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel3)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane16))
+                    .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator3))
                 .addContainerGap())
         );
         mediatorLayout.setVerticalGroup(
@@ -698,9 +808,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(mediatorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(mediatorLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mediatorLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(48, 48, 48))))
         );
 
         getContentPane().add(mediator, "card5");
@@ -710,21 +826,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setText("You Are a: PROTAGONIST");
 
+        jTextArea14.setColumns(20);
+        jTextArea14.setLineWrap(true);
+        jTextArea14.setRows(5);
+        jTextArea14.setText("Protagonists are genuine, caring people who talk the talk and walk the walk, and nothing makes them happier than leading the charge, uniting and motivating their team with infectious enthusiasm.");
+        jTextArea14.setWrapStyleWord(true);
+        jScrollPane15.setViewportView(jTextArea14);
+
         javax.swing.GroupLayout protagonistLayout = new javax.swing.GroupLayout(protagonist);
         protagonist.setLayout(protagonistLayout);
         protagonistLayout.setHorizontalGroup(
             protagonistLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(protagonistLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(protagonistLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(protagonistLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(protagonistLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(protagonistLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator4))))
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel5)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane15))
+                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator4))
                 .addContainerGap())
         );
         protagonistLayout.setVerticalGroup(
@@ -734,9 +856,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(protagonistLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(protagonistLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, protagonistLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(50, 50, 50))))
         );
 
         getContentPane().add(protagonist, "card5");
@@ -746,21 +874,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel8.setText("You Are a: CAMPAIGNER");
 
+        jTextArea13.setColumns(20);
+        jTextArea13.setLineWrap(true);
+        jTextArea13.setRows(5);
+        jTextArea13.setText("Campaigners are fiercely independent, and much more than stability and security, they crave creativity and freedom.");
+        jTextArea13.setWrapStyleWord(true);
+        jScrollPane14.setViewportView(jTextArea13);
+
         javax.swing.GroupLayout campaignerLayout = new javax.swing.GroupLayout(campaigner);
         campaigner.setLayout(campaignerLayout);
         campaignerLayout.setHorizontalGroup(
             campaignerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(campaignerLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(campaignerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(campaignerLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(campaignerLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(campaignerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator5))))
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel7)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane14))
+                    .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator5))
                 .addContainerGap())
         );
         campaignerLayout.setVerticalGroup(
@@ -770,9 +904,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(campaignerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(campaignerLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, campaignerLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(49, 49, 49))))
         );
 
         getContentPane().add(campaigner, "card5");
@@ -782,21 +922,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel10.setText("You Are a: LOGISTICIAN");
 
+        jTextArea12.setColumns(20);
+        jTextArea12.setLineWrap(true);
+        jTextArea12.setRows(5);
+        jTextArea12.setText("When Logisticians say they are going to get something done, they do it, meeting their obligations no matter the personal cost, and they are baffled by people who don't hold their own word in the same respect");
+        jTextArea12.setWrapStyleWord(true);
+        jScrollPane13.setViewportView(jTextArea12);
+
         javax.swing.GroupLayout logisticianLayout = new javax.swing.GroupLayout(logistician);
         logistician.setLayout(logisticianLayout);
         logisticianLayout.setHorizontalGroup(
             logisticianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(logisticianLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(logisticianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(logisticianLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(logisticianLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(logisticianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator6))))
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel9)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane13))
+                    .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator6))
                 .addContainerGap())
         );
         logisticianLayout.setVerticalGroup(
@@ -806,9 +952,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(logisticianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(logisticianLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, logisticianLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(51, 51, 51))))
         );
 
         getContentPane().add(logistician, "card5");
@@ -818,21 +970,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel12.setText("You Are a: DEFENDER");
 
+        jTextArea11.setColumns(20);
+        jTextArea11.setLineWrap(true);
+        jTextArea11.setRows(5);
+        jTextArea11.setText("Defenders are true altruists, meeting kindness with kindness-in-excess and engaging the work and people they believe in with enthusiasm and generosity.\n");
+        jTextArea11.setWrapStyleWord(true);
+        jScrollPane12.setViewportView(jTextArea11);
+
         javax.swing.GroupLayout defenderLayout = new javax.swing.GroupLayout(defender);
         defender.setLayout(defenderLayout);
         defenderLayout.setHorizontalGroup(
             defenderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(defenderLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(defenderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(defenderLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(defenderLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(defenderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator7))))
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel11)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane12))
+                    .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator7))
                 .addContainerGap())
         );
         defenderLayout.setVerticalGroup(
@@ -842,9 +1000,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(defenderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(defenderLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, defenderLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(61, 61, 61))))
         );
 
         getContentPane().add(defender, "card5");
@@ -854,21 +1018,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel14.setText("You Are an: EXECUTIVE");
 
+        jTextArea10.setColumns(20);
+        jTextArea10.setLineWrap(true);
+        jTextArea10.setRows(5);
+        jTextArea10.setText("Executives are classic images of the model citizen: they help their neighbors, uphold the law, and try to make sure that everyone participates in the communities and organizations they hold so dear.");
+        jTextArea10.setWrapStyleWord(true);
+        jScrollPane11.setViewportView(jTextArea10);
+
         javax.swing.GroupLayout executiveLayout = new javax.swing.GroupLayout(executive);
         executive.setLayout(executiveLayout);
         executiveLayout.setHorizontalGroup(
             executiveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(executiveLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(executiveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(executiveLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(executiveLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(executiveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator8))))
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel13)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane11))
+                    .addComponent(jLabel14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator8))
                 .addContainerGap())
         );
         executiveLayout.setVerticalGroup(
@@ -878,9 +1048,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(executiveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(executiveLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, executiveLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(50, 50, 50))))
         );
 
         getContentPane().add(executive, "card5");
@@ -890,6 +1066,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel16.setText("You Are a: CONSUL");
 
+        jTextArea9.setColumns(20);
+        jTextArea9.setLineWrap(true);
+        jTextArea9.setRows(5);
+        jTextArea9.setText("At their hearts, Consul's personalities are social creatures, and thrive on staying up to date with what their friends are doing.");
+        jTextArea9.setWrapStyleWord(true);
+        jScrollPane10.setViewportView(jTextArea9);
+
         javax.swing.GroupLayout consulLayout = new javax.swing.GroupLayout(consul);
         consul.setLayout(consulLayout);
         consulLayout.setHorizontalGroup(
@@ -897,14 +1080,15 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(consulLayout.createSequentialGroup()
                 .addGroup(consulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(consulLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(consulLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(consulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator9))))
+                            .addComponent(jLabel16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                            .addComponent(jSeparator9)))
+                    .addGroup(consulLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel15)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane10)))
                 .addContainerGap())
         );
         consulLayout.setVerticalGroup(
@@ -914,9 +1098,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(consulLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(consulLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, consulLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(46, 46, 46))))
         );
 
         getContentPane().add(consul, "card5");
@@ -926,6 +1116,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel18.setText("You Are an: ARCHITECT");
 
+        jTextArea2.setEditable(false);
+        jTextArea2.setColumns(20);
+        jTextArea2.setLineWrap(true);
+        jTextArea2.setRows(5);
+        jTextArea2.setText("Rules, limitations and traditions are anathema to the Architect personality type – everything should be open to questioning and reevaluation, and if they see a way, Architects will often act unilaterally to enact their technically superior, sometimes insensitive, and almost always unorthodox methods and ideas.");
+        jTextArea2.setWrapStyleWord(true);
+        jScrollPane3.setViewportView(jTextArea2);
+
         javax.swing.GroupLayout architectLayout = new javax.swing.GroupLayout(architect);
         architect.setLayout(architectLayout);
         architectLayout.setHorizontalGroup(
@@ -933,14 +1131,15 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(architectLayout.createSequentialGroup()
                 .addGroup(architectLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(architectLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(architectLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(architectLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator10))))
+                            .addComponent(jSeparator10)))
+                    .addGroup(architectLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel17)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 292, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         architectLayout.setVerticalGroup(
@@ -951,7 +1150,12 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                .addGroup(architectLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, architectLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(49, 49, 49)))
                 .addContainerGap())
         );
 
@@ -962,6 +1166,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel20.setText("You Are a: LOGICIAN");
 
+        jTextArea3.setColumns(20);
+        jTextArea3.setLineWrap(true);
+        jTextArea3.setRows(5);
+        jTextArea3.setText("as a logician, you are known for your brilliant theories and unrelenting logic – in fact, you are considered the most logically precise of all the different personality types.");
+        jTextArea3.setWrapStyleWord(true);
+        jScrollPane4.setViewportView(jTextArea3);
+
         javax.swing.GroupLayout logicianLayout = new javax.swing.GroupLayout(logician);
         logician.setLayout(logicianLayout);
         logicianLayout.setHorizontalGroup(
@@ -969,14 +1180,15 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(logicianLayout.createSequentialGroup()
                 .addGroup(logicianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(logicianLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(logicianLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(logicianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel20, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator11))))
+                            .addComponent(jLabel20, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                            .addComponent(jSeparator11)))
+                    .addGroup(logicianLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel19)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane4)))
                 .addContainerGap())
         );
         logicianLayout.setVerticalGroup(
@@ -987,7 +1199,12 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                .addGroup(logicianLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, logicianLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(45, 45, 45)))
                 .addContainerGap())
         );
 
@@ -998,6 +1215,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel22.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel22.setText("You Are a: COMMANDER");
 
+        jTextArea1.setColumns(20);
+        jTextArea1.setLineWrap(true);
+        jTextArea1.setRows(5);
+        jTextArea1.setText("The underlying thought running through the Commander mind might be something like \"I don't care if you call me an insensitive b*****d, as long as I remain an efficient b*****d\".");
+        jTextArea1.setWrapStyleWord(true);
+        jScrollPane2.setViewportView(jTextArea1);
+
         javax.swing.GroupLayout commanderLayout = new javax.swing.GroupLayout(commander);
         commander.setLayout(commanderLayout);
         commanderLayout.setHorizontalGroup(
@@ -1005,14 +1229,16 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(commanderLayout.createSequentialGroup()
                 .addGroup(commanderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(commanderLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(commanderLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(commanderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel22, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator12))))
+                            .addComponent(jLabel22, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                            .addComponent(jSeparator12)))
+                    .addGroup(commanderLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel21)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         commanderLayout.setVerticalGroup(
@@ -1022,9 +1248,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(commanderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(commanderLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, commanderLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(56, 56, 56))))
         );
 
         getContentPane().add(commander, "card5");
@@ -1034,6 +1266,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel24.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel24.setText("You Are a: DEBATER");
 
+        jTextArea4.setColumns(20);
+        jTextArea4.setLineWrap(true);
+        jTextArea4.setRows(5);
+        jTextArea4.setText("An odd juxtaposition arises with Debater, as they are uncompromisingly honest, but will argue tirelessly for something they don't actually believe in, stepping into another's shoes to argue a truth from another perspective.");
+        jTextArea4.setWrapStyleWord(true);
+        jScrollPane5.setViewportView(jTextArea4);
+
         javax.swing.GroupLayout debaterLayout = new javax.swing.GroupLayout(debater);
         debater.setLayout(debaterLayout);
         debaterLayout.setHorizontalGroup(
@@ -1041,14 +1280,15 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(debaterLayout.createSequentialGroup()
                 .addGroup(debaterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(debaterLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(debaterLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(debaterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel24, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator13))))
+                            .addComponent(jLabel24, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                            .addComponent(jSeparator13)))
+                    .addGroup(debaterLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel23)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane5)))
                 .addContainerGap())
         );
         debaterLayout.setVerticalGroup(
@@ -1058,9 +1298,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(debaterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(debaterLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, debaterLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(45, 45, 45))))
         );
 
         getContentPane().add(debater, "card5");
@@ -1070,21 +1316,26 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel26.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel26.setText("You Are : VIRTUOSO");
 
+        jTextArea5.setColumns(20);
+        jTextArea5.setLineWrap(true);
+        jTextArea5.setRows(5);
+        jTextArea5.setText("Rather than some sort of vision quest though, ISTPs are merely exploring the viability of a new interest when they make these seismic shifts.");
+        jTextArea5.setWrapStyleWord(true);
+        jScrollPane6.setViewportView(jTextArea5);
+
         javax.swing.GroupLayout virtuosoLayout = new javax.swing.GroupLayout(virtuoso);
         virtuoso.setLayout(virtuosoLayout);
         virtuosoLayout.setHorizontalGroup(
             virtuosoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(virtuosoLayout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(virtuosoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel26, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                    .addComponent(jSeparator14)
                     .addGroup(virtuosoLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(virtuosoLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(virtuosoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel26, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator14))))
+                        .addComponent(jLabel25)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane6)))
                 .addContainerGap())
         );
         virtuosoLayout.setVerticalGroup(
@@ -1094,9 +1345,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(virtuosoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(virtuosoLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, virtuosoLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(47, 47, 47))))
         );
 
         getContentPane().add(virtuoso, "card5");
@@ -1106,6 +1363,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel28.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel28.setText("You Are an: ADVENTURER");
 
+        jTextArea6.setColumns(20);
+        jTextArea6.setLineWrap(true);
+        jTextArea6.setRows(5);
+        jTextArea6.setText("Adventurers always know just the compliment to soften a heart that's getting ready to call their risks irresponsible or reckless.");
+        jTextArea6.setWrapStyleWord(true);
+        jScrollPane7.setViewportView(jTextArea6);
+
         javax.swing.GroupLayout adventurerLayout = new javax.swing.GroupLayout(adventurer);
         adventurer.setLayout(adventurerLayout);
         adventurerLayout.setHorizontalGroup(
@@ -1113,14 +1377,15 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(adventurerLayout.createSequentialGroup()
                 .addGroup(adventurerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(adventurerLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(adventurerLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(adventurerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator15))))
+                            .addComponent(jLabel28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                            .addComponent(jSeparator15)))
+                    .addGroup(adventurerLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel27)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane7)))
                 .addContainerGap())
         );
         adventurerLayout.setVerticalGroup(
@@ -1130,9 +1395,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(adventurerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(adventurerLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, adventurerLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(49, 49, 49))))
         );
 
         getContentPane().add(adventurer, "card5");
@@ -1142,6 +1413,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel30.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel30.setText("You Are an: ENTREPRENEUR");
 
+        jTextArea7.setColumns(20);
+        jTextArea7.setLineWrap(true);
+        jTextArea7.setRows(5);
+        jTextArea7.setText("Sometimes Entrepreneur's instantaneous observation and action is just what's required, as in some corporate environments, and especially in emergencies.");
+        jTextArea7.setWrapStyleWord(true);
+        jScrollPane8.setViewportView(jTextArea7);
+
         javax.swing.GroupLayout entrepreneurLayout = new javax.swing.GroupLayout(entrepreneur);
         entrepreneur.setLayout(entrepreneurLayout);
         entrepreneurLayout.setHorizontalGroup(
@@ -1149,14 +1427,15 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(entrepreneurLayout.createSequentialGroup()
                 .addGroup(entrepreneurLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(entrepreneurLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(entrepreneurLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(entrepreneurLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel30, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator16))))
+                            .addComponent(jLabel30, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                            .addComponent(jSeparator16)))
+                    .addGroup(entrepreneurLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel29)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane8)))
                 .addContainerGap())
         );
         entrepreneurLayout.setVerticalGroup(
@@ -1166,9 +1445,15 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(entrepreneurLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(entrepreneurLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, entrepreneurLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(42, 42, 42))))
         );
 
         getContentPane().add(entrepreneur, "card5");
@@ -1178,6 +1463,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel32.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel32.setText("You Are an: ENTERTAINER");
 
+        jTextArea8.setColumns(20);
+        jTextArea8.setLineWrap(true);
+        jTextArea8.setRows(5);
+        jTextArea8.setText("There's nothing that makes Entertainer feel quite as unhappy as realizing that they are boxed in by circumstance, unable to join their friends.");
+        jTextArea8.setWrapStyleWord(true);
+        jScrollPane9.setViewportView(jTextArea8);
+
         javax.swing.GroupLayout entertainerLayout = new javax.swing.GroupLayout(entertainer);
         entertainer.setLayout(entertainerLayout);
         entertainerLayout.setHorizontalGroup(
@@ -1185,14 +1477,15 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(entertainerLayout.createSequentialGroup()
                 .addGroup(entertainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(entertainerLayout.createSequentialGroup()
-                        .addGap(92, 92, 92)
-                        .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 436, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 84, Short.MAX_VALUE))
-                    .addGroup(entertainerLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(entertainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel32, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jSeparator17))))
+                            .addComponent(jLabel32, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 632, Short.MAX_VALUE)
+                            .addComponent(jSeparator17)))
+                    .addGroup(entertainerLayout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel31)
+                        .addGap(18, 18, 18)
+                        .addComponent(jScrollPane9)))
                 .addContainerGap())
         );
         entertainerLayout.setVerticalGroup(
@@ -1202,14 +1495,20 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jSeparator17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGroup(entertainerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(entertainerLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, entertainerLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(47, 47, 47))))
         );
 
         getContentPane().add(entertainer, "card5");
 
-        setSize(new java.awt.Dimension(638, 493));
+        setSize(new java.awt.Dimension(668, 493));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 //veryify button function on but display the proceed button and gather user basic info
@@ -1259,7 +1558,8 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_avatarMouseClicked
 
     private void begin_test_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_begin_test_buttonActionPerformed
-                // TODO add your handling code here:
+                // Within this function of initializing the test, each String question is set to the variuous 
+                //question object. in the end, the question number is parsed into string to be displayed on the screen.
         Window_Content.setVisible(false);
         Introduction.setVisible(true);
         Questions.setVisible(false);
@@ -1273,12 +1573,23 @@ public class NewJFrame extends javax.swing.JFrame {
         Question8.setText(Question_8);
         Question9.setText(Question_9);
         Question10.setText(Question_10);
+        Question11.setText(Question_11);
+        Question12.setText(Question_12);
+        Question13.setText(Question_13);
+        Question14.setText(Question_14);
+        Question15.setText(Question_15);
+        Question16.setText(Question_16);
+        Question17.setText(Question_17);
+        Question18.setText(Question_18);
+        Question19.setText(Question_19);
+        Question20.setText(Question_20);
         Question_Number.setText(Integer.toString(Questionnaire_Location) );
         
     }//GEN-LAST:event_begin_test_buttonActionPerformed
 
     private void Begin_Test_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Begin_Test_ButtonActionPerformed
-        // TODO add your handling code here:
+        // This hides the Visibility of the intro panel after the button is clicked
+        //displaying the questions panels.
         Introduction.setVisible(false);
         Questions.setVisible(true);
         
@@ -1363,7 +1674,87 @@ public class NewJFrame extends javax.swing.JFrame {
             Question_Number.setText(Integer.toString(Questionnaire_Location));
             break;
         case 10:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
             Question10.setVisible(false);
+            Question11.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 11:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question11.setVisible(false);
+            Question12.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 12:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question12.setVisible(false);
+            Question13.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 13:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question13.setVisible(false);
+            Question14.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 14:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question14.setVisible(false);
+            Question15.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 15:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question15.setVisible(false);
+            Question16.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 16:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question16.setVisible(false);
+            Question17.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 17:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question17.setVisible(false);
+            Question18.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 18:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question18.setVisible(false);
+            Question19.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 19:
+            Total_Points = (Total_Points += Current_Point);
+            user_answer.clearSelection();
+            Question19.setVisible(false);
+            Question20.setVisible(true);
+            Questionnaire_Location++;     
+            Question_Number.setText(Integer.toString(Questionnaire_Location));
+            break;
+        case 20:
+            Question20.setVisible(false);
             user_response.setVisible(false);
             Question_Title.setVisible(false);
             Question_Number.setVisible(false);
@@ -1372,6 +1763,7 @@ public class NewJFrame extends javax.swing.JFrame {
             Total_Score.setVisible(false);
             Questions.setVisible(false);
             Role_Type_Calculator.setVisible(true);
+            user.setText(input_first_name.getText() +" " + input_last_name.getText());
             break;
      
         } 
@@ -1413,7 +1805,7 @@ public class NewJFrame extends javax.swing.JFrame {
     //JOptionPane.showMessageDialog(null, Total_Points);
     
          
-        if(Total_Points <= 50 && Total_Points > 47){
+        if(Total_Points <= 100 && Total_Points > 94){
             Role_Type_Calculator.setVisible(false);
             advocate.setVisible(true);
         }
@@ -1426,13 +1818,13 @@ public class NewJFrame extends javax.swing.JFrame {
         }
         
         
-            else if (Total_Points <= 44 && Total_Points > 41){
+            else if (Total_Points <= 88 && Total_Points > 82){
                 Role_Type_Calculator.setVisible(false);
             protagonist.setVisible(true);
         }
        
        
-            else if (Total_Points <= 41 && Total_Points > 38){
+            else if (Total_Points <= 82 && Total_Points > 76){
                 Role_Type_Calculator.setVisible(false);
             campaigner.setVisible(true);
         }
@@ -1440,55 +1832,55 @@ public class NewJFrame extends javax.swing.JFrame {
         
 //This is For The Sentinel Personality Types        
      
-            else if(Total_Points <= 38 && Total_Points > 35){
+            else if(Total_Points <= 76 && Total_Points > 70){
                 Role_Type_Calculator.setVisible(false);
             logistician.setVisible(true);
         }
    
         
     
-            else if(Total_Points <= 35 && Total_Points > 32){
+            else if(Total_Points <= 70 && Total_Points > 64){
                 Role_Type_Calculator.setVisible(false);
             defender.setVisible(true);
         }
     
     
-            else if(Total_Points <= 32 && Total_Points > 29){
+            else if(Total_Points <= 64 && Total_Points > 58){
                 Role_Type_Calculator.setVisible(false);
             executive.setVisible(true);
         }
     
         
     
-            else if(Total_Points <= 29 && Total_Points > 26){
+            else if(Total_Points <= 58 && Total_Points > 52){
                 Role_Type_Calculator.setVisible(false);
             consul.setVisible(true);
         }
     
     
 //This is For The Analysts Personality type
-            else if(Total_Points <= 26 && Total_Points > 23){
+            else if(Total_Points <= 52 && Total_Points > 46){
                 Role_Type_Calculator.setVisible(false);
            architect.setVisible(true); 
         }
     
         
     
-            else if(Total_Points <= 23 && Total_Points > 20){
+            else if(Total_Points <= 46 && Total_Points > 40){
                 Role_Type_Calculator.setVisible(false);
            logician.setVisible(true); 
         }
     
         
     
-            else if(Total_Points <= 20 && Total_Points > 17){
+            else if(Total_Points <= 40 && Total_Points > 34){
                 Role_Type_Calculator.setVisible(false);
            commander.setVisible(true);
         }
     
         
      
-            else if(Total_Points <= 17 && Total_Points > 14){
+            else if(Total_Points <= 34 && Total_Points > 28){
                 Role_Type_Calculator.setVisible(false);
            debater.setVisible(true); 
         }
@@ -1497,41 +1889,36 @@ public class NewJFrame extends javax.swing.JFrame {
      
 //This is For The Adventurer Role
 
-            else if(Total_Points <= 14 && Total_Points > 11){
+            else if(Total_Points <= 28 && Total_Points > 22){
                 Role_Type_Calculator.setVisible(false);
            virtuoso.setVisible(true); 
         }
     
         
     
-            else if(Total_Points <= 11 && Total_Points > 8){
+            else if(Total_Points <= 22 && Total_Points > 16){
                 Role_Type_Calculator.setVisible(false);
            adventurer.setVisible(true);
         }
     
         
     
-            else if(Total_Points <= 8 && Total_Points > 5){
+            else if(Total_Points <= 16 && Total_Points > 10){
                 Role_Type_Calculator.setVisible(false);
            entrepreneur.setVisible(true);
         }
        
         
     
-            else if(Total_Points <= 5 && Total_Points > 2){
+            else if(Total_Points <= 10 && Total_Points >= 1){
                 Role_Type_Calculator.setVisible(false);
            entertainer.setVisible(true); 
-        }
-    
-        
-        else{
-           JOptionPane.showMessageDialog(null, "Looks Like You Filled In Nothing");
         }
 //Button Print Out Window Command:
 
     }   
  else{
-     
+    JOptionPane.showMessageDialog(null, "Looks Like You You did not fill out any value selecting scale of agreement"); 
  }
 
 
@@ -1598,7 +1985,17 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel ProgressPercentage;
     private javax.swing.JLabel Question1;
     private javax.swing.JLabel Question10;
+    private javax.swing.JLabel Question11;
+    private javax.swing.JLabel Question12;
+    private javax.swing.JLabel Question13;
+    private javax.swing.JLabel Question14;
+    private javax.swing.JLabel Question15;
+    private javax.swing.JLabel Question16;
+    private javax.swing.JLabel Question17;
+    private javax.swing.JLabel Question18;
+    private javax.swing.JLabel Question19;
     private javax.swing.JLabel Question2;
+    private javax.swing.JLabel Question20;
     private javax.swing.JLabel Question3;
     private javax.swing.JLabel Question4;
     private javax.swing.JLabel Question5;
@@ -1671,6 +2068,22 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator10;
     private javax.swing.JSeparator jSeparator11;
@@ -1688,6 +2101,22 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea10;
+    private javax.swing.JTextArea jTextArea11;
+    private javax.swing.JTextArea jTextArea12;
+    private javax.swing.JTextArea jTextArea13;
+    private javax.swing.JTextArea jTextArea14;
+    private javax.swing.JTextArea jTextArea15;
+    private javax.swing.JTextArea jTextArea16;
+    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea4;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
     private javax.swing.JTextPane jTextPane1;
     private javax.swing.JPanel logician;
     private javax.swing.JPanel logistician;
@@ -1695,6 +2124,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel protagonist;
     public javax.swing.JRadioButton strongly_agree;
     public javax.swing.JRadioButton strongly_disagree;
+    private javax.swing.JLabel user;
     private javax.swing.ButtonGroup user_answer;
     public javax.swing.JLabel user_fullname;
     public javax.swing.JPanel user_response;
